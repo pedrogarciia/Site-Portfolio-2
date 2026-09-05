@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER STYLES */
+
+.nav{
+    background-color: #02050A;
+    height: 80px;
+    width: 100%;                           /* create a full container header */
+    display: flex;
+    justify-content: flex-end;             /* align the nav items to the right */
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;                   /* align the nav items in the center */
+    list-style: none;                      /* remove the point list */
+    margin-right: 30px;                    /* add some margin to the right of the nav items */
+}
+
+.nav-list a{
+    text-decoration: none;                  /* remove the default underline from the links */
+    color: #ddd;
+    padding: 20px;                          /* add some space between the links */            
+}
+
+.nav-list a:hover{                         /* add a hover effect to the links */
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* MAIN STYLES */
+
+.main{
+    width: 100%;
+    background-image: url("Images/Background main.jpg");
+    height: calc(100vh - 80px);                     /* subtract the height of the header from the height of the main */
+    margin: 0;
+    
+}
+
+.main h1{
+    color: #FFFF;
+    font-size: 100px;
+    text-align: left;
+    padding-top: 5vh; 
+    padding-left: 60px;
+    line-height: 1.1;
+    display: flex;
+}
+
+.main h2{
+    color: #FFFF;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 32vh; 
+    padding-right: 30px;
+}
+
+.main p{
+    color: #FFFF;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.call-to-action{
+    cursor: pointer;
+}
