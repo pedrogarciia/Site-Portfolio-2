@@ -36,7 +36,3 @@ portfolio/
 ├── images/
 └── README.md
 ```
- 
-## 🚀 Como executar localmente
- 
-1. Cl
